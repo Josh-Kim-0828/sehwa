@@ -4,26 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Info</title>
     <style>
+        html, body{
+            width: 100%;
+            height: 100%;
+        }
+        #header{
+                height: 20%;
+                background-color: blue;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
         #nav{
             width: 15%;
-            background-color: yellow;
-            float: left;
+            height: 70%;
+            background-color: coral;
+        }
+        #footer{
+            height: 10%;
+            background-color: lightseagreen;
+            clear: both;
         }
         #container{
             width: 85%;
-            float:right;
+            height: 70%;
+            float: right;
         }
-        #footer{
-            background-color: grey;
-            clear:both;
+        #container ul {
+            list-style: circle;
         }
     </style>
 </head>
 <body>
     <div id="header">
-        <h1>김주호의 사이트</h1>
+        <h1>My Homepage</h1>
     </div>
     <div id="nav">
         <ul>
@@ -35,10 +52,18 @@
         </ul>
     </div>
     <div id="container">
-        <p>뭐라고 써야되징</p>
+        <a href="https://www.sehwa.hs.kr"><img src="fjRl"></a>
+        <ul>
+            <li>이름:김주호</li>
+            <li>나이:17</li>
+            <li>생년월일: 2005/8/28</li>
+            <li>희망학과:의예과</li>
+        </ul>
+        <p>방문객에게 한마디</p>
+        <p>뇽뇽뇽뇽뇬ㅇ욘욘욘뇽</p>
     </div>
     <div id="footer">
-            github 주소
+        https://github.com/Josh-Kim-0828/sehwa.git
     </div>
 </body>
 </html>
